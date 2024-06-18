@@ -14,7 +14,7 @@ import seaborn as sns
 import sklearn
 from scipy import stats
 
-df = pd.read_csv('Medical_insurance.csv')
+df = pd.read_csv('insurance.csv')
 df.head()
 
 df.info()
